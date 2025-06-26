@@ -166,6 +166,7 @@ Developed with 🖤 by **Arshdeep Yadav**
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the [MIT License](LICENSE).  
+Feel free to use, modify, and share it with proper attribution.
 
 ```
