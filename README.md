@@ -11,7 +11,7 @@ Feel free to reach out at: **2208390100017@reck.ac.in**
 
 The MRI dataset used in this project was sourced from **Kaggle**:
 
-🔗 [Brain Tumor MRI Dataset (Kaggle - Navoneel Chakrabarty)](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
+🔗 [Brain Tumor MRI Dataset (Kaggle)](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
 
 ### 📊 Dataset Summary
 
@@ -67,13 +67,9 @@ A visual summary of the pipeline and model flow:
 * 🧮 **Loss**: Converges quickly, minimal overfitting  
 * 📌 **AUC-ROC**: High discriminatory power across all tumor types
 
-### 📉 Training vs Testing Accuracy
+### 📊 Classification Results:
 
-![Train vs Test Accuracy](train%20vs%20test.png)
-
-### 📊 Confusion Matrix
-
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix and Classification Report](confusion_classification.png)
 
 ---
 
@@ -102,6 +98,9 @@ To run this project, install the following Python libraries:
 
 ```bash
 pip install tensorflow keras matplotlib scikit-learn numpy opencv-python
+````
+```bash
+pip install -r requirements.txt
 ````
 
 ---
@@ -132,8 +131,9 @@ jupyter notebook brain-tumor-mri-accuracy-99-auc-roc-cv.ipynb
 
 Please consider citing the following sources if you use this work in your research:
 
-> **Arshdeep Yadav**, CSE B.Tech 3rd Year, REC Kannauj
-> Email: [2208390100017@reck.ac.in](mailto:2208390100017@reck.ac.in)
+> **[Arshdeep Yadav](https://github.com/arshdeepyadavofficial)**,
+>  C.S.E; B.Tech 3rd Year,
+>  REC Kannauj
 
 > Hemanth, D. Jude, et al. “Medical Image Analysis Based on Artificial Intelligence: A Review.” *Elsevier*, 2020.
 
@@ -153,16 +153,14 @@ Please consider citing the following sources if you use this work in your resear
 
 ## 👨‍💻 Author
 
-Developed with 💡 by **Arshdeep Yadav**
+Developed with 🖤 by **Arshdeep Yadav**
 🎓 CSE B.Tech 3rd Year
 🏫 Rajkiya Engineering College, Kannauj
-📧 Email: [2208390100017@reck.ac.in](mailto:2208390100017@reck.ac.in)
 
 🌐 Connect with me:
 
-* [GitHub](https://github.com/arshdeep-yadav)
-* [Kaggle](https://www.kaggle.com/arshdeepyadav)
-* [LinkedIn](https://www.linkedin.com/in/arshdeep-yadav/)
+* [GitHub](https://github.com/arshdeepyadavofficial)
+* [LinkedIn](https://www.linkedin.com/in/arshdeep-yadav-827aa1257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ---
 
