@@ -49,7 +49,7 @@ This project implements an automated brain tumor detection and classification sy
 
 ### 📈 Evaluation
 - **Metrics:** Accuracy, Precision, Recall, F1-score, Confusion Matrix  
-- **Results:** ~99% classification accuracy
+- **Results:** ~93%  accuracy
 
 ---
 
@@ -63,13 +63,13 @@ A visual summary of the pipeline and model flow:
 
 ## 📈 Performance Metrics
 
-* ✅ **Accuracy**: ~99%  
+* ✅ **Accuracy**: ~93%  
 * 🧮 **Loss**: Converges quickly, minimal overfitting  
 * 📌 **AUC-ROC**: High discriminatory power across all tumor types
 
 ### 📊 Classification Results:
 
-![Confusion Matrix and Classification Report](confusion_classification.png)
+![Confusion Matrix and Classification Report](confusion_classification.jpg)
 
 ---
 
