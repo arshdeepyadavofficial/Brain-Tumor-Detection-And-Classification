@@ -1,6 +1,9 @@
 # 🧠 ENHANCED MRI BRAIN TUMOR DETECTION AND CLASSIFICATION USING HYBRID APPROACH
 
-This project presents a deep learning-based hybrid approach for the **automatic detection and classification of brain tumors** using **contrast-enhanced MRI scans**. The system classifies MRI images into four categories: **Glioma**, **Meningioma**, **Pituitary**, and **No Tumor**. The model achieves outstanding performance with a classification accuracy of **\~99%**, validated through **cross-validation** and **AUC-ROC** metrics.
+This project presents a deep learning-based hybrid approach for the **automatic detection and classification of brain tumors** using **contrast-enhanced MRI scans**. The system classifies MRI images into four categories: **Glioma**, **Meningioma**, **Pituitary**, and **No Tumor**. The model achieves outstanding performance with a classification accuracy of **~99%**, validated through **cross-validation** and **AUC-ROC** metrics.
+
+📩 **Want the research paper?**  
+Feel free to reach out at: **2208390100017@reck.ac.in**
 
 ---
 
@@ -8,7 +11,7 @@ This project presents a deep learning-based hybrid approach for the **automatic 
 
 The MRI dataset used in this project was sourced from **Kaggle**:
 
-🔗 [Brain Tumor MRI Dataset (Kaggle)](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
+🔗 [Brain Tumor MRI Dataset (Kaggle - Navoneel Chakrabarty)](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
 
 ### 📊 Dataset Summary
 
@@ -22,29 +25,46 @@ The MRI dataset used in this project was sourced from **Kaggle**:
 
 ---
 
-## 🧠 Model Overview
+## 🧠 How It Works
 
-The hybrid classification model uses a **custom CNN architecture**, enhanced with techniques such as:
+This project implements an automated brain tumor detection and classification system using a **hybrid deep learning–machine learning** approach. The key stages are:
 
-* **Data Augmentation**
-* **Dropout Regularization**
-* **EarlyStopping**
-* **Cross-validation for robustness**
+### 🔄 Preprocessing
+- **Noise Reduction:** Gaussian filtering  
+- **Normalization:** Intensity scaling  
+- **Enhancement:** Contrast, brightness  
+- **Inversion & Resizing:** To 299×299  
+- **Augmentation:** Rotation, shear, zoom
 
-### ⚙️ Architecture Highlights
+### 📥 Feature Extraction
+- **Model:** MobileNetV2 (pre-trained on ImageNet)  
+- **Purpose:** Extract high-level visual features via transfer learning
 
-* Input: 150×150 RGB MRI images
-* Convolutional Layers (Conv2D) with ReLU
-* MaxPooling and Dropout for generalization
-* Fully Connected Dense Layers
-* Output: Softmax layer (4-class classification)
+### 🧮 Classification
+- **Classifier:** SVM with linear kernel  
+- **Classes:** Glioma, Meningioma, Pituitary, No Tumor
+
+### 🔍 Interpretability
+- **Grad-CAM:** Heatmaps for tumor region localization
+
+### 📈 Evaluation
+- **Metrics:** Accuracy, Precision, Recall, F1-score, Confusion Matrix  
+- **Results:** ~99% classification accuracy
+
+---
+
+### 🧩 Model Visualization
+
+A visual summary of the pipeline and model flow:
+
+![Model Visualization](visualselection.png)
 
 ---
 
 ## 📈 Performance Metrics
 
-* ✅ **Accuracy**: \~99%
-* 🧮 **Loss**: Converges quickly, minimal overfitting
+* ✅ **Accuracy**: ~99%  
+* 🧮 **Loss**: Converges quickly, minimal overfitting  
 * 📌 **AUC-ROC**: High discriminatory power across all tumor types
 
 ### 📉 Training vs Testing Accuracy
@@ -82,7 +102,7 @@ To run this project, install the following Python libraries:
 
 ```bash
 pip install tensorflow keras matplotlib scikit-learn numpy opencv-python
-```
+````
 
 ---
 
@@ -90,9 +110,17 @@ pip install tensorflow keras matplotlib scikit-learn numpy opencv-python
 
 To reproduce the results:
 
-1. Clone this repository
-2. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
-3. Run the notebook:
+1. Clone this repository:
+
+```bash
+git clone https://github.com/arshdeep-yadav/Brain-Tumor-Detection-Hybrid-Approach.git
+cd Brain-Tumor-Detection-Hybrid-Approach
+```
+
+2. Download the dataset from Kaggle:
+   👉 [Download MRI Dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
+
+3. Activate your environment and run the notebook:
 
 ```bash
 jupyter notebook brain-tumor-mri-accuracy-99-auc-roc-cv.ipynb
@@ -104,11 +132,12 @@ jupyter notebook brain-tumor-mri-accuracy-99-auc-roc-cv.ipynb
 
 Please consider citing the following sources if you use this work in your research:
 
-> Arshdeep Yadav, CSE B.Tech 3rd Year, REC Kannauj
+> **Arshdeep Yadav**, CSE B.Tech 3rd Year, REC Kannauj
+> Email: [2208390100017@reck.ac.in](mailto:2208390100017@reck.ac.in)
 
 > Hemanth, D. Jude, et al. “Medical Image Analysis Based on Artificial Intelligence: A Review.” *Elsevier*, 2020.
 
-> Navoneel Chakrabarty. *Brain MRI Dataset*, [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).
+> Navoneel Chakrabarty. *Brain MRI Dataset*, [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
 
 > Chollet, François. *Deep Learning with Python*. Manning Publications, 2018.
 
@@ -124,10 +153,21 @@ Please consider citing the following sources if you use this work in your resear
 
 ## 👨‍💻 Author
 
-Developed with 💡 by **Arshdeep Yadav**, CSE B.Tech 3rd Year, REC Kannauj
+Developed with 💡 by **Arshdeep Yadav**
+🎓 CSE B.Tech 3rd Year
+🏫 Rajkiya Engineering College, Kannauj
+📧 Email: [2208390100017@reck.ac.in](mailto:2208390100017@reck.ac.in)
+
+🌐 Connect with me:
+
+* [GitHub](https://github.com/arshdeep-yadav)
+* [Kaggle](https://www.kaggle.com/arshdeepyadav)
+* [LinkedIn](https://www.linkedin.com/in/arshdeep-yadav/)
 
 ---
 
 ## 📄 License
 
 This project is licensed under the **MIT License**.
+
+```
