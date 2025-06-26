@@ -131,11 +131,9 @@ jupyter notebook brain-tumor-mri-accuracy-99-auc-roc-cv.ipynb
 
 Please consider citing the following sources if you use this work in your research:
 
-> **[Arshdeep Yadav](https://github.com/arshdeepyadavofficial)**,
->  C.S.E; B.Tech 3rd Year,
+> **[Arshdeep Yadav](https://github.com/arshdeepyadavofficial)**, <br>
+>  C.S.E; B.Tech 3rd Year, <br>
 >  REC Kannauj
-
-> Hemanth, D. Jude, et al. “Medical Image Analysis Based on Artificial Intelligence: A Review.” *Elsevier*, 2020.
 
 > Navoneel Chakrabarty. *Brain MRI Dataset*, [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
 
@@ -153,8 +151,8 @@ Please consider citing the following sources if you use this work in your resear
 
 ## 👨‍💻 Author
 
-Developed with 🖤 by **Arshdeep Yadav**
-🎓 CSE B.Tech 3rd Year
+Developed with 🖤 by **Arshdeep Yadav** <br>
+🎓 CSE B.Tech 3rd Year <br>
 🏫 Rajkiya Engineering College, Kannauj
 
 🌐 Connect with me:
