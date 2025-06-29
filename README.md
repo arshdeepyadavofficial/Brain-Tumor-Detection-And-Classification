@@ -1,11 +1,18 @@
 # 🧠 ENHANCED MRI BRAIN TUMOR DETECTION AND CLASSIFICATION USING HYBRID APPROACH
 
+[![Last Commit](https://img.shields.io/github/last-commit/arshdeepyadavofficial/Brain-Tumor-Detection-And-Classification.svg)](https://github.com/arshdeepyadavofficial/Brain-Tumor-Detection-And-Classification/commits/)
+[![Jupyter Notebook](https://img.shields.io/badge/-jupyter%20notebook- grey?logo=jupyter)](https://jupyter.org/)
+[![Language](https://img.shields.io/badge/languages-1-blue)](https://github.com/)
+[![100% Notebook](https://img.shields.io/badge/100.0%25-jupyter%20notebook-blue)](https://jupyter.org/)
+
+
 This project presents a deep learning-based hybrid approach for the **automatic detection and classification of brain tumors** using **contrast-enhanced MRI scans**. The system classifies MRI images into four categories: **Glioma**, **Meningioma**, **Pituitary**, and **No Tumor**. The model achieves outstanding performance with a classification accuracy of **~99%**, validated through **cross-validation** and **AUC-ROC** metrics.
 
 📩 **Want the research paper?**  
 Feel free to reach out at: **2208390100017@reck.ac.in**
 
 ---
+![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white)
 
 ## 📂 Dataset Information
 
