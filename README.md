@@ -2,8 +2,8 @@
 
 [![Last Commit](https://img.shields.io/github/last-commit/arshdeepyadavofficial/Brain-Tumor-Detection-And-Classification.svg)](https://github.com/arshdeepyadavofficial/Brain-Tumor-Detection-And-Classification/commits/)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
-[![Language](https://img.shields.io/badge/languages-1-blue)](https://github.com/arshdeepyadavofficial/Brain-Tumor-Detection-And-Classification)
-[![100% Notebook](https://img.shields.io/badge/100%25-Notebook-blue)](https://jupyter.org/)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+<br>
 [![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white)](https://commonmark.org/help/)
 <br>
 
